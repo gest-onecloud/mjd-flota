@@ -53,9 +53,9 @@ Ver `.env.example` en cada carpeta.
 
 ## Deploy
 
-- Backend → Render (Web Service, Python)
-- Frontend → Vercel o Render (Static Site)
-- Base de datos → Supabase
+- **Frontend** → IONOS (sitio estático). Compilar con `npm run build` y subir la carpeta `dist/`.
+- **Backend** → Render (Web Service, Python)
+- **Base de datos** → Supabase
 
 ## Colores e iconos
 

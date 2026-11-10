@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './styles/main.css';
 import Dashboard from './pages/Dashboard';
 import Flota from './pages/Flota';
@@ -42,7 +42,7 @@ function Sidebar() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="d-flex">
         <Sidebar />
         <div className="main-content flex-grow-1">
@@ -53,6 +53,6 @@ export default function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
